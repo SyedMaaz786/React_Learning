@@ -1,5 +1,5 @@
 function handleFormSubmit(){
-    event.preventDefault();   {/* This line is very important to print the the form is submitted text */}
+    event.preventDefault();   {/* This line is very important to print the the form is submitted text because this prevents your form from being refreshed.*/}
     console.log("Form is submitted!");
 }
 export default function Form(){
